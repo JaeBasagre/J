@@ -1,0 +1,201 @@
+@font-face {
+font-family: HelveticaNeueThin;
+src: url("../fonts/HelveticaNeueThin.otf") format("opentype");
+}
+
+#forgotPassbtn{
+	color: #21bc5a;
+	font-family: HelveticaNeueThin;
+}
+
+body {
+	//background: #21bc5a;	
+	background: #e5e5e5;	
+	font-family: HelveticaNeueThin;
+
+}
+
+
+.header-text{
+	color: #21bc5a;
+	letter-spacing: 2px;
+	//text-align: center;
+	font-family: HelveticaNeueThin;
+}
+.head-text{
+	color: #686868;
+	letter-spacing: 5px;
+	text-align: center;
+	font-family: HelveticaNeueThin;
+}
+.mb-20{
+	margin-bottom: 20px;
+}
+.mt-10{
+	margin-top: 10px;
+}
+.mt-20{
+	margin-top: 20px;
+}
+.mt-50{
+	margin-top: 50px;
+}
+.mt-100{
+	margin-top: 100px;
+}
+.mt-150{
+	margin-top: 150px;
+}
+
+.panel-me{
+	border-radius: 0;
+	border-top: 3px solid #21bc5a;
+	border-right: none;
+	border-left: none;
+	box-shadow: 0 15px 30px -20px black;
+
+}
+.fa-color{
+	color: #21bc5a;
+}
+
+.form-me .form-control
+{
+	border-radius: 0;
+	background-color: #fff;
+	border: 1px solid #c2c2c2;
+	outline: none;
+	transition: .2s;
+	letter-spacing: 1px;
+}
+.form-me .form-control:hover
+{
+	border-color: #21bc5a;
+}
+.form-me .form-control:focus
+{
+	border-color: #21bc5a;
+}
+
+.form-me .btn{
+	border-radius: 0;
+}
+.form-me .btn-success1{
+	
+	background-color: #21bc5a;
+	color: #fff;
+	letter-spacing: 2px;
+	transition: .5s;
+}
+.form-me .btn-success1:hover{
+	background-color: #199e49;
+}
+.form-me .btn-success{
+	background-color: #fff;
+	border: 1px solid #21bc5a;
+	color: #21bc5a;
+	letter-spacing: 2px;
+}
+.form-me .btn-success:hover
+{
+	background-color: #21bc5a;
+	color: #fff;
+	transition: .5s;
+}
+.form-me .btn-danger{
+	background-color: #e84c3d;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.form-me .btn-danger:hover
+{
+	background-color: #af362a;
+}
+.form-me .btn-default{
+	letter-spacing: 2px;
+}
+
+.form-lg{
+	height: 40px;
+	font-size: 17px;
+}
+#loginUser{
+	position: absolute;
+	width: 92%;
+	//margin-top: -50px;
+	display: none;
+}
+#checkUser{
+	position: relative;
+}
+.alert-danger{
+	padding: 20px;
+	background-color: #e84c3d;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	/*/transition: .2s;*/
+	display: none;
+	position: absolute;
+	width: 92.2%;
+	top: 350px;
+}
+.alert-danger2{
+	padding: 20px;
+	background-color: #e84c3d;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	/*/transition: .2s;*/
+	display: none;
+	position: absolute;
+	width: 94.5%;
+	top: 350px;
+}
+.alert-success{
+	padding: 20px;
+	background-color: #2dcc70;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	/*/transition: .2s;*/
+	display: none;
+	position: absolute;
+	width: 94.5%;
+	top: 350px;
+}
+
+
+.left{
+	padding-right: 2px;
+}
+.modal-content{
+	border-radius: 0px;
+}
+.form-me > .btn-circle {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 12px;
+	line-height: 1.428571429;
+	border-radius: 15px;
+}
+
+.btn-circle {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 12px;
+	line-height: 1.428571429;
+	border-radius: 15px;
+}
+
+.btn-circle.btn-lg {
+	width: 50px;
+	height: 50px;
+	/*padding: 10px 16px;*/
+	line-height: 1.33;
+	border-radius: 25px;
+}
